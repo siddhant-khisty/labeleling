@@ -23,7 +23,7 @@ jobs:
       
     runs-on: ubuntu-latest
     steps:
-    - uses: AnuragThePathak/labeler-copy@v1.12.0
+    - uses: AnuragThePathak/labeler-copy@v1.13.0
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
         configuration-path: .github/labeler.yaml
