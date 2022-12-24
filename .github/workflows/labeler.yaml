@@ -6,17 +6,17 @@ on:
 
 jobs:
   triage:
-#     permissions:
+    permissions:
 #       actions: none
 #       checks: none
-#       contents: none
+      contents: read
 #       deployments: none
 #       id-token: none
 #       issues: none
 #       discussions: none
 #       packages: none
 #       pages: none
-#       pull-requests: write
+      pull-requests: write
 #       repository-projects: none
 #       security-events: none
 #       statuses: none
